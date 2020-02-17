@@ -1,0 +1,25 @@
+{
+  "functionalSuites": ["tests/**/*.spec.js"],
+  "functionalTimeouts": {
+    "pageLoad": 10000,
+    "connectTimeout": 10000,
+    "find": 5000
+  },
+  "environments": [
+    {
+      "browserName": "chrome",
+      "fixSessionCapabilities": false,
+      "goog:chromeOptions": {
+        "args": [
+          "window-size=1200,1000"
+        ]
+      }
+    },
+    {
+      "browserName": "firefox",
+      "moz:firefoxOptions": {
+        "args": []
+      }
+    }
+  ]
+}

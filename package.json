@@ -1,0 +1,23 @@
+{
+  "name": "e2e-testing-project-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx intern"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abratadinatatiket/e2e-testing-project-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abratadinatatiket/e2e-testing-project-template/issues"
+  },
+  "homepage": "https://github.com/abratadinatatiket/e2e-testing-project-template#readme",
+  "devDependencies": {
+    "intern": "^4.8.0"
+  }
+}
